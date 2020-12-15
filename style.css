@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* header */
+nav {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color:rgb(50,50,51);
+    position: fixed; 
+
+}
+
+.blink:hover{
+    color:rgb(255, 255, 255);
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20% 0 20%;
+}
+
+.c{
+    padding-top: 20px;
+}
+
+ul li {
+   
+    list-style: none;
+    
+}
+
+
+
+
+ul li a {
+  
+    color: rgb(183,183,183);
+    text-decoration: none;
+    line-height: 50px;
+
+
+    /*xxxxxxx font-family: Arial, Helvetica, sans-serif; xxxxxx*/
+}
+
+/* xxxxxxxxxxxxxxxxxx.*/
+
+
+
+/* 2nd div online  */
+#online {
+
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+    line-height: 50px;
+
+}
+
+
+
+.shop {
+    text-align: center;
+    height: 50px;
+
+
+}
+
+p {
+
+    font-size: 14px;
+    line-height: 50px;
+    word-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.early  {
+    color: rgb(56, 134, 213);
+   
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Accessibilty */
+
+#accessibility {
+    background-color: rgb(251, 251, 253);
+
+}
+
+table {
+
+    width: 400px;
+    margin: auto;
+}
+
+tr {
+    margin: 50px;
+}
+
+th {
+    font-size: 50px;
+}
+
+td {
+    font-size: 20px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#accessibility{
+
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.access{
+    font-size: 55px;
+    text-align: center;
+}
+
+.built{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(251,251,253);
+}
+
+.learn{
+    color:  rgb(0,122,255);
+    font-size: 20px;
+ 
+}
+
+.learn:hover{
+    text-decoration: underline;
+}
+
+.third{
+    text-decoration: none;
+    color: black;
+}
+
+.blue{ 
+     color:rgb(24, 143, 253);
+    }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.red{
+    text-align: center;
+    width: 100%;
+    height: 800px;
+
+}
+
+.wonder{
+    font-size: 55px;
+    color: black;
+}
+
+.gift{
+    font-size: 20px;
+}
+
+.pro{
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    height: 700px;
+    color: white;
+    overflow: hidden;
+}
+
+
+.large-h1 {
+    font-size: 60px;
+}
+
+.large-h3{
+    font-size: 30px;
+}
+
+.buy{
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(121,121,126);
+    margin-bottom: 5    px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+#iphone12{
+
+    padding: 50px;
+    width: 100%;
+    background-color:  rgb(255, 255, 255);
+    color: black;
+    height: 800px;
+    text-align: center;
+    display: block;
+    
+
+ }
+
+ .max-min{
+     max-width:100% ;
+     min-width:20% ;
+ }
+
+ .text{
+    text-align: center;
+ }
+
+
+
+.new{
+    
+    display: inline-block;
+
+}
+
+.tw{
+    font-size: 50px;
+}
+.fast{
+    color: rgb(49, 46, 46);
+    font-size: 20px;
+
+}
+
+.buyapple{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+#storeApp{
+    /* margin-top: 600px; */
+    background-color:  rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    /* display: block; */
+    max-width: 40%;
+    min-width: 20%;
+
+}
+.twoPic{
+    display: inline-block;
+    /* position: relative; */
+}
+
+
+.text2{
+    position: absolute;
+    display: block;
+    padding-top: 150px;
+    margin-left: 250px;
+    
+}
+.year{
+color: white;
+line-height: 25px;
+font-size: 20px;
+}
+
+
+
+.link{
+    color: white;
+    font-size: 20px;
+   
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.write{
+    
+    position: absolute;
+    display: block;
+    margin-left: 200px;
+}
+
+
+
+.orange{
+    color: rgb(246, 181, 58);
+    font-weight: bold;
+}
+.ln-height{
+    line-height: 22px;
+    font-size: 20px;
+    color: black;
+}
